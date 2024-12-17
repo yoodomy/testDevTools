@@ -1,0 +1,23 @@
+{
+  "name": "@celcomdigi/dev-tools",
+  "private": true,
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "author": "Mike Grabowski <mike@callstack.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.72.7"
+  },
+  "dependencies": {
+    "@callstack/repack": "4.3.3",
+    "@tsconfig/node18": "^18.2.4",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.88.2",
+    "webpack-merge": "^6.0.1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/node18",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./lib",
+    "composite": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true
+  },
+}
