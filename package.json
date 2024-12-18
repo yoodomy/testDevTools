@@ -1,5 +1,5 @@
 {
-  "name": "@celcomdigi/dev-tools",
+  "name": "@celcomdigi/test-dev-tools",
   "private": false,
   "version": "1.0.3",
   "main": "lib/index.js",
@@ -19,5 +19,9 @@
     "terser-webpack-plugin": "^5.3.9",
     "webpack": "^5.88.2",
     "webpack-merge": "^6.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoodomy/testDevTools.git"
   }
 }
