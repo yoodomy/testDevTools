@@ -77,8 +77,6 @@ yarn-error.log
 !.yarn/sdks
 !.yarn/versions
 
-# Node
-lib/
 
 # TS
 *.tsbuildinfo
