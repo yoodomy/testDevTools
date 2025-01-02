@@ -1,13 +1,19 @@
 {
   "name": "@celcomdigi/test-dev-tools",
   "private": false,
-  "version": "1.0.5",
+  "version": "1.0.8",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
   "author": "Mike Grabowski <mike@callstack.com>",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch"
+    "dev": "tsc --watch",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
     "react": "18.2.0",
